@@ -1,0 +1,15 @@
+{
+  "id": "chatcmpl-123",
+  "choices": [{
+    "index": 0,
+    "message": {
+      "role": "assistant",
+      "content": null,
+      "function_call": {
+        "name": "get_current_weather",
+        "arguments": "{ "location": "Boston, MA"}"
+      }
+    },
+    "finish_reason": "function_call"
+  }]
+}
